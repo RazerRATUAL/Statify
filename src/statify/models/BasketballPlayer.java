@@ -1,4 +1,7 @@
 package statify.models;
 
-public class BasketballPlayer {
+public class BasketballPlayer extends Player {
+    public BasketballPlayer(String name) {
+        super(name);
+    }
 }
